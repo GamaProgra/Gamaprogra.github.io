@@ -1,0 +1,44 @@
+#ribbon{
+   background-image: url(img/tozTOK.jpg);
+}
+
+#birthday{
+    background-color: rgb(173, 45, 45);
+    position: relative;
+    margin-top: 0px;
+    z-index: 10;
+    box-shadow: 0 0 50px rgb(0,0,0,0.5);
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6)
+}
+#footer{
+    background: url(../img/bg-04.png);
+    background-color: rgb(177, 84, 22);
+    background-size: 50px 50px;
+}
+
+
+label {
+  width: 130px;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 8px
+    
+}
+
+#Sign{
+    margin-top: 10px;
+    width: 200px;
+}
+
+#sign{
+    margin-top: 10px;
+    width: 250px;
+}
+
+#sword{
+    height: 700px;
+    width: 110%;
+}

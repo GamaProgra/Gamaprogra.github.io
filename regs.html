@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zelda's Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="regs.css">
+    
+</head>
+<body>
+    
+
+  <!-- NAVBAR-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-danger" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.jpg" alt="" width="200">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Consolas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="regs.html">Registrarme</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sign.html">Acceder</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- RIBBON-->
+    <div id="ribbon">
+        <div id="birthday" class="container w-50 pl-5 pr-5 rounded-lg">
+          <!-- slide -->
+          <div class="row align-items-center">
+            <div class="col-sm col-sm p-2" id="description">
+              <img id="sword" src="img/sword.png" alt="...">
+            </div>
+            
+            <div class="col-sm p-2 text-light text-left">
+              <p class="text-warning h3">Datos del Usuario<fieldset>
+            
+            <div id="regis" for="clave">Nombre:</div>
+            <input name="nombre" id="nombre" type="text" placeholder="Escribe tu nombre"/>
+            <br />
+            <div id="regis" for="clave">Correo:</div>
+            <input name="nombre" id="nombre" type="text" placeholder="Escribe tu correo"/>
+            <br />
+            <div id="regis" for="clave">Contraseña:</div>
+            <input name="clave" id="clave" type="password" placeholder="Escribe tu contraseña"/>
+            
+            <div id="regis" for="clave">Confirmar contraseña:</div>
+            <input name="clave" id="clave" type="password" placeholder="Escribe tu contraseña"/>
+            <div>
+            <a href="#">
+              <button id="Regs" class="btn btn-lg rounded-pill btn-warning p-3 shadow-sm font-weight-bold">Registrarme</button>
+            </a>
+            </div>
+            <input type="hidden" name="sitio" value="contaminacion" />
+                
+                </fieldset>
+</p>
+            </div>
+          </div><!-- SLIDE-->
+        </div>
+    </div><!-- RIBBON-->
+
+    <!-- SEPARATOR RIBBON-->
+    <div id="separator-ribbon">
+      <div class="content bg-warning"></div>
+    </div>
+    
+
+    <div id="footer" class="p-5">
+      <div class="container w-50 pt-5">
+        <div class="row row-cols-md-2 justify-content-md-center">
+          <div class="col text-center">
+            <a href="#">
+              <button class="btn btn-lg rounded-pill btn-warning w-100  p-3 shadow-sm font-weight-bold">Customer Support</button>
+            </a>
+            
+          </div>
+        </div>
+        <div class="row justify-content-md-center py-5">
+          <div class="col text-center font-weight-light">
+            <p>For Nintendo 3DS systems, use Parental Controls to restrict 3D mode for children 6 and under.</p>
+            <p>Internet access required for online features. For more info, go to support.nintendo.com.</p>
+            <p>Games and amiibo accessories sold separately. Figures shown not actual size. Compatibility and functionality of amiibo may vary per game. Visit amiibo.com for specific details on how each amiibo works.</p>
+            <p>© 2001 - 2020 Nintendo. Nintendo properties are trademarks of Nintendo.</p>
+          </div>
+          
+        </div>
+        <div class="row"></div>
+      </div>
+    </div>
+    
+
+    
+<script src="js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    </body>
+</html>
