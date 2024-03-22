@@ -115,7 +115,7 @@
 
 #footer{
     background: url(../img/bg-04.png);
-    background-color: rgb(128, 128, 128);
+    background-color: grey;
     color: black;
     background-size: 50px 50px;
 }
