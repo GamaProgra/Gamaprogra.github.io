@@ -109,12 +109,12 @@
 
 #play{
     background: url(../img/bg-04.png);
-    background-color: white;
+    color: white;
     background-size: 40px 40px;
 }
 
 #footer{
     background: url(../img/bg-04.png);
-    background-color: grey;
+    color: grey;
     background-size: 50px 50px;
 }
