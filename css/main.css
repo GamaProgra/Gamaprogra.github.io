@@ -110,6 +110,7 @@
 #play{
     background: url(../img/bg-04.png);
     background-color: white;
+    color: black;
     background-size: 40px 40px;
 }
 
